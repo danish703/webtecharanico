@@ -1,0 +1,47 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+input[type="text"],input[type="date"],input[type="email"],input[type="password"],select{
+    height: 35px;
+    width: 300px;
+    border: 1px solid green;
+    display: block;
+}
+
+
+label{
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+button[type="submit"]{
+    height: 40px;
+    width: 100px;
+    border:none;
+    background-color: lightgreen;
+    color: white;
+}
+
+
+table,th,td{
+    border:1px solid green;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+
+.msg{
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.msg-success{
+    background-color:darkseagreen;
+    color: white;
+}
